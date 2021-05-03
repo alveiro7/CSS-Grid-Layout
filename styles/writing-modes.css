@@ -1,0 +1,84 @@
+/* ------------------------------
+            $VARIABLES
+------------------------------- */
+/* -------- $COLORS----------- */
+/* ------------$FONTS--------------- */
+.card, .card-10, .card-9, .card-8, .card-7, .card-6, .card-5, .card-4, .card-3, .card-2, .card-1 {
+  background: #40e0d0;
+  width: 400px;
+  height: 150px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 25px auto;
+  font-family: "Lato", sans-serif;
+}
+
+.card-1 {
+  direction: ltr;
+  writing-mode: horizontal-tb;
+}
+
+.card-2 {
+  direction: ltr;
+  writing-mode: sideways-lr;
+}
+
+.card-3 {
+  direction: ltr;
+  writing-mode: sideways-rl;
+}
+
+.card-4 {
+  direction: ltr;
+  writing-mode: vertical-lr;
+}
+
+.card-5 {
+  direction: ltr;
+  writing-mode: vertical-rl;
+}
+
+.card-6 {
+  direction: rtl;
+  writing-mode: horizontal-tb;
+}
+
+.card-7 {
+  direction: rtl;
+  writing-mode: sideways-lr;
+}
+
+.card-8 {
+  direction: rtl;
+  writing-mode: sideways-rl;
+}
+
+.card-9 {
+  direction: rtl;
+  writing-mode: vertical-lr;
+}
+
+.card-10 {
+  direction: rtl;
+  writing-mode: vertical-rl;
+}
+
+.card__header {
+  background: #e0ffff;
+  padding: 20px;
+}
+
+.card__main {
+  background: #ff1493;
+  padding: 20px;
+}
+
+.card__direction {
+  background: #ffefd5;
+  padding: 0 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=writing-modes.css.map */

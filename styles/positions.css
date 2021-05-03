@@ -1,0 +1,93 @@
+/* ------------------------------
+            $VARIABLES
+------------------------------- */
+/* -------- $COLORS----------- */
+/* ------------$FONTS--------------- */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: "Lato", sans-serif;
+  width: 550px;
+}
+
+.container {
+  background: #40e0d0;
+  width: 180px;
+  height: 180px;
+  position: relative;
+}
+
+.element, .element9, .element8, .element7, .element6, .element5, .element4, .element3, .element2, .element1 {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.element1 {
+  background: #ffefd5;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.element2 {
+  background: #ffefd5;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.element3 {
+  background: #ffefd5;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  transform: translate(0, -100%);
+}
+
+.element4 {
+  background: #ff1493;
+  position: absolute;
+  left: calc(50% - 30px);
+  top: 0;
+}
+
+.element5 {
+  background: #ff1493;
+  position: absolute;
+  left: calc(50% - 30px);
+  top: calc(50% - 30px);
+}
+
+.element6 {
+  background: #ff1493;
+  position: absolute;
+  left: calc(50% - 30px);
+  top: calc(100% - 60px);
+}
+
+.element7 {
+  background: #e0ffff;
+  position: absolute;
+  left: calc(100% - 60px);
+}
+
+.element8 {
+  background: lightcyan;
+  position: absolute;
+  left: calc(100% - 60px);
+  top: calc(50% - 30px);
+}
+
+.element9 {
+  background: lightcyan;
+  position: absolute;
+  left: calc(100% - 60px);
+  top: calc(100% - 60px);
+}
+
+/*# sourceMappingURL=positions.css.map */

@@ -1,0 +1,89 @@
+@import "variables";
+
+.card {
+    background: $primary-color;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 25px auto;
+    font-family: $font-stack;
+}
+
+.card-1 {
+    @extend .card;
+    direction: ltr;
+    writing-mode: horizontal-tb;
+}
+
+.card-2 {
+    @extend .card;
+    direction: ltr;
+    writing-mode: sideways-lr;
+}
+
+.card-3 {
+    @extend .card;
+    direction: ltr;
+    writing-mode: sideways-rl;
+}
+
+.card-4 {
+    @extend .card;
+    direction: ltr;
+    writing-mode: vertical-lr;
+}
+
+.card-5 {
+    @extend .card;
+    direction: ltr;
+    writing-mode: vertical-rl;
+}
+
+.card-6 {
+    @extend .card;
+    direction: rtl;
+    writing-mode: horizontal-tb;
+}
+
+.card-7 {
+    @extend .card;
+    direction: rtl;
+    writing-mode: sideways-lr;
+}
+
+.card-8 {
+    @extend .card;
+    direction: rtl;
+    writing-mode: sideways-rl;
+}
+
+.card-9 {
+    @extend .card;
+    direction: rtl;
+    writing-mode: vertical-lr;
+}
+
+.card-10 {
+    @extend .card;
+    direction: rtl;
+    writing-mode: vertical-rl;
+}
+
+.card__header {
+    background: $right-color;
+    padding: 20px;
+}
+
+.card__main {
+    background: $center-color;
+    padding: 20px;
+}
+
+.card__direction {
+    background: $left-color;
+    padding: 0 20px;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   width: 550px;
 }
 
@@ -14,7 +13,7 @@
   height: 180px;
 }
 
-.element {
+.element, .element9, .element8, .element7, .element6, .element5, .element4, .element3, .element2, .element1 {
   width: 60px;
   height: 60px;
   text-align: center;
@@ -23,55 +22,48 @@
 }
 
 .element1 {
-  @extend .element;
   background: papayawhip;
-  // margin: ;
+  margin: 0;
 }
 
 .element2 {
-  @extend .element;
   background: papayawhip;
-  // margin: ;
+  margin: 60px 0;
 }
 
 .element3 {
-  @extend .element;
   background: papayawhip;
-  // margin: ;
+  margin: 120px 0;
 }
 
 .element4 {
-  @extend .element;
   background: pink;
-  // margin: ;
+  margin: 0 auto;
 }
 
 .element5 {
-  @extend .element;
   background: pink;
-  // margin: ;
+  margin: 60px auto;
 }
 
 .element6 {
-  @extend .element;
   background: pink;
-  // margin: ;
+  margin: 120px auto;
 }
 
 .element7 {
-  @extend .element;
   background: lightcyan;
-  // margin: ;
+  margin: 0 0 0 auto;
 }
 
 .element8 {
-  @extend .element;
   background: lightcyan;
-  // margin: ;
+  margin: 60px 0 0 auto;
 }
 
 .element9 {
-  @extend .element;
   background: lightcyan;
-  // margin: ;
+  margin: 120px 0 0 auto;
 }
+
+/*# sourceMappingURL=margin.css.map */
